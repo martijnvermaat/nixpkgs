@@ -3967,6 +3967,8 @@ in
 
   weighttp = callPackage ../tools/networking/weighttp { };
 
+  wf = callPackage ../tools/text/wf { };
+
   wget = callPackage ../tools/networking/wget {
     inherit (perlPackages) LWP;
     libpsl = null;
